@@ -200,7 +200,10 @@ a {
 #icon-github:before {
     content: "\e805"; }
 
-
+  /* #icon-twitter {
+      border-right: 1px solid #626262; }
+  #icon-twitter:before {
+      content: "\e805"; } */
 
 .tags-btn {
   color: #a6a6a7;
@@ -638,7 +641,9 @@ iframe {
 
 
 #icon-twitter {
-  margin-left: -90px; }
+  border-right: 1px solid #626262; 
+  /* margin-left: -90px;  */
+}
   #icon-twitter:hover {
     color: #4099ff; }
   #icon-twitter:before {

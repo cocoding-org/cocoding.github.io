@@ -17,9 +17,10 @@
 
     <div class="copyright">Copyright ©2024 CoCoding All Rights Reserved. </div>
     <div id="tags__bottom">
-      <a href="{{ site.author.github }}" id="icon-github" class="tags-btn fontello" target="_blank"></a>
-      <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a>
-      <a href="mailto:{{ site.author.email }}" id="icon-email" class="tags-btn fontello"></a>
+      <a :href="site.author.github" id="icon-github" class="tags-btn fontello" target="_blank"></a>
+      <a :href="site.author.twitter" id="icon-twitter" class="tags-btn fontello" target="_blank"></a>
+      <!-- <a href="/pages/rss.xml" id="icon-feed" class="tags-btn fontello" target="_blank"></a> -->
+      <a :href="'mailto:'+site.author.email" id="icon-email" class="tags-btn fontello"></a>
     </div>
 
   </nav> <!-- end #tags -->
@@ -61,6 +62,15 @@ import articleData from '@/assets/data.json'
 import logoImg from '/cc2.svg'
 import { useRouter } from 'vue-router';
 import { isMobile } from '@/utils/browser';
+
+const site = {
+    author: {
+        github: "https://github.com/icocoding",
+        email: '',
+        twitter: 'https://twitter.com/cocoding_x'
+    }
+}
+
 
 const articleArr: any[] = Object.keys(articleData).map(k => {
             return {
