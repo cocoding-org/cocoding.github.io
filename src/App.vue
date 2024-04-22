@@ -27,4 +27,11 @@
 #nprogress .bar {
   background-color: aquamarine !important;
 }
+.markdown-body img {
+    opacity: 0.5;
+    border: 1px gray dotted !important;
+}
+.markdown-body img:hover {
+    opacity: 1;
+}
 </style>

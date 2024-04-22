@@ -17,5 +17,24 @@
                 "content": "Aliyun EMAS Serverless, Aliyun EMAS Serverless介绍, Aliyun EMAS Serverless使用, Aliyun EMAS Serverless使用教程, Aliyun EMAS Serverless使用示例, Aliyun EMAS Serverless使用场景"
             }
         ]
+    },
+    "tech-x-ui-extend": {
+        "title": "X-IU 功能扩展",
+        "category": "tech",
+        "author": "iCoCoding",
+        "tags": "X-IU 功能扩展",
+        "keywords": "X-IU 功能扩展",
+        "description": "X-IU 功能扩展",
+        "date": "2024年04月22日22:49:35",
+        "meta": [
+            {
+                "name": "description",
+                "content": "X-IU 功能扩展，快捷配置，节点复制，订阅功能"
+            },
+            {
+                "name": "keywords",
+                "content": "X-IU 功能扩展，快捷配置，节点复制，订阅功能"
+            }
+        ]
     }
 }

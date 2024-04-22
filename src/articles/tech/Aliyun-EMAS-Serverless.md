@@ -19,11 +19,11 @@ meta:
 # 一、Aliyun EMAS Serverless介绍
 > 移动研发平台EMAS云函数管理，如果你使用[EMAS云函数](https://help.aliyun.com/document_detail/2584808.html?spm=a2c4g.435821.0.0.71ac6999W1B4Hx)，可以参考本文档。阿里云管理后台比较难用，使用本项目更方便。
 
-GitHub: [https://github.com/CoCodingOrg/aliyun-serverless](https://github.com/CoCodingOrg/aliyun-serverless)
+GitHub: [https://github.com/icocoding/aliyun-serverless](https://github.com/icocoding/aliyun-serverless)
 
 # 二、云函数开发工具 alicf 功能
 ## 1. 设置阿里云调用参数 
-[./cloudfunctions/config.json](https://github.com/CoCodingOrg/aliyun-serverless/blob/master/cloudfunctions/config.json)
+[./cloudfunctions/config.json](https://github.com/icocoding/aliyun-serverless/blob/master/cloudfunctions/config.json)
 ```json
 {
     "accessKeyId": "Your Aliyun AccessKeyId",
