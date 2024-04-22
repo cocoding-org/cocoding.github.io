@@ -1,1 +1,1 @@
-# cocoding.github.io
+# blog.cocoding.org
