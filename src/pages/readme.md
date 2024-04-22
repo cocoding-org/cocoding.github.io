@@ -1,5 +1,5 @@
 ---
-title: CoCoding Blog
+title: CoCoding
 category: 
 tags: CoCoding
 keywords: CoCoding
@@ -14,25 +14,18 @@ meta:
 ===
 
 
-# Vue 3 + TypeScript + Vite
+# CoCoding
 
-This template should help get you started developing with Vue 3 and TypeScript in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
-
-## Recommended Setup
-
-- [VS Code](https://code.visualstudio.com/) + [Vue - Official](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (previously Volar) and disable Vetur
-
-- Use [vue-tsc](https://github.com/vuejs/language-tools/tree/master/packages/tsc) for performing the same type checking from the command line, or for generating d.ts files for SFCs.
+## CoCoding简介
+- CoCoding是将"Co"（共同）和"Coding"（编码）两个词组合而成的术语，它指的是团队成员在软件开发过程中共同编码、合作和协作的一种理念和实践。
+- 在传统的软件开发模式中，通常会存在着严格的分工，每个人负责自己的模块或任务，相互之间的沟通和合作比较有限。而CoCoding的理念则是强调团队成员之间的紧密合作和协作，不仅仅是在代码层面，还包括在需求分析、设计、测试等各个阶段。
 
 
-## Dependencies
+## CoCoding的理念
 
-- @unhead/vue : vue中给markdown文件添加header
-- github-markdown-css: markdown通用样式
-- markdown-it-anchor: 为Markdown标题生成唯一的ID，实现导航
-- markdown-it-highlightjs: 代码块高亮样式
-- markdown-it-prism: 代码块高亮样式，和highlightjs功能一致。用一个就行了，我最终没用这个
-- unplugin-vue-markdown: 实现markdown的核心库，内部分装了markdown-it
-- vite-plugin-pages: 实现自动路由，markdown文章自动生成路由
-- markdown-it-external-link：为markdown中的链接添加target="_blank"
-- markdown-it-toc：为markdown中的标题添加目录
+1. 团队协作： CoCoding强调了团队成员之间的协作和合作，不同的成员可以共同参与同一个任务或模块的开发，共同思考问题，共同解决难题，共同完成任务。
+2. 知识共享： 在CoCoding的过程中，团队成员之间会进行知识的共享和交流，每个人都可以从其他人的经验和见解中学习到新的东西，从而提升自己的技能水平。
+3. 快速迭代： 由于团队成员之间的紧密合作和协作，CoCoding可以帮助团队更快地完成任务，更快地迭代产品，并及时地响应用户的反馈和需求。
+4. 质量保障： 在CoCoding的过程中，团队成员之间会相互审查和评估彼此的工作，及时发现和纠正问题，从而确保软件的质量和稳定性。
+
+> 总的来说，CoCoding是一种团队合作和协作的理念，它强调了团队成员之间的紧密合作和相互支持，以实现更高效的软件开发过程和更优质的产品交付。
