@@ -1,0 +1,21 @@
+{
+    "tech-Aliyun-EMAS-Serverless": {
+        "title": "Aliyun移动研发平台EMAS云函数管理",
+        "category": "tech",
+        "author": "Etone",
+        "tags": "Aliyun,EMAS,Serverless,云函数",
+        "keywords": "Aliyun,EMAS,Serverless,云函数",
+        "description": "移动研发平台EMAS云函数管理，如果你使用[EMAS云函数](https://help.aliyun.com/document_detail/2584808.html?spm=a2c4g.435821.0.0.71ac6999W1B4Hx)，可以参考本文档。阿里云管理后台比较难用，使用本项目更方便。",
+        "date": "2024年04月04日19:44:10",
+        "meta": [
+            {
+                "name": "description",
+                "content": "移动研发平台EMAS云函数管理，如果你使用[EMAS云函数](https://help.aliyun.com/document_detail/2584808.html?spm=a2c4g.435821.0.0.71ac6999W1B4Hx)，可以参考本文档。阿里云管理后台比较难用，使用本项目更方便。"
+            },
+            {
+                "name": "keywords",
+                "content": "Aliyun EMAS Serverless, Aliyun EMAS Serverless介绍, Aliyun EMAS Serverless使用, Aliyun EMAS Serverless使用教程, Aliyun EMAS Serverless使用示例, Aliyun EMAS Serverless使用场景"
+            }
+        ]
+    }
+}

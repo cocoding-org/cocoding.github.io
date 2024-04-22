@@ -1,0 +1,36 @@
+{
+  "name": "cocodingblog",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "markdown-it-toc-done-right": "^4.2.0",
+    "nprogress": "^0.2.0",
+    "vue": "^3.4.21",
+    "vue-meta": "^3.0.0-alpha.2",
+    "vue-router": "^4.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.12.3",
+    "@types/nprogress": "^0.2.3",
+    "@unhead/vue": "^1.9.4",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "github-markdown-css": "^5.5.1",
+    "markdown-it-anchor": "^8.6.7",
+    "markdown-it-external-link": "^1.1.0",
+    "markdown-it-highlightjs": "^4.0.1",
+    "markdown-it-prism": "^2.3.0",
+    "markdown-it-toc": "^1.1.0",
+    "typescript": "^5.2.2",
+    "unplugin-vue-markdown": "^0.26.0",
+    "unplugin-vue-router": "^0.8.5",
+    "vite": "^5.2.0",
+    "vite-plugin-pages": "^0.32.1",
+    "vue-tsc": "^2.0.6"
+  }
+}
