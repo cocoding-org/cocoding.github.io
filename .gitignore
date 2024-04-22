@@ -1,0 +1,7 @@
+.vscode/**
+.vite/**
+node_modules/**
+dist/**
+upload.sh
+package-lock.json
+.DS_Store
