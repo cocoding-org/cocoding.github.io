@@ -5,12 +5,14 @@ import Nav from '@/components/Nav.vue'
 import { onBeforeMount, provide, ref } from 'vue';
 import { useRouter } from 'vue-router';
 // import { useMeta } from 'vue-meta';
+const showMenu = ref(true)
 const router = useRouter()
 onBeforeMount(()=>{
-  if (router.currentRoute.value.path === '/')
-  router.push('readme')
-
+  if (router.currentRoute.value.path === '/') {
+    router.push('readme')
+  }
   console.log(router.currentRoute.value)
+  showMenu.value = location.search != '?menuoff'
   // useMeta({
   //   title: 'Article 01',
   //   meta: [
@@ -19,9 +21,13 @@ onBeforeMount(()=>{
   //   ],
   // })
 })
-const showMenu = ref(true)
 function toggleMenu() {
   showMenu.value = !showMenu.value
+  // if (!showMenu.value) {
+  //   location.search = 'menuoff'
+  // } else {
+  //   location.search = 'menuon'
+  // }
 }
 provide('hideMenu', ()=>{
   showMenu.value = false
