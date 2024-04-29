@@ -36,5 +36,24 @@
                 "content": "X-IU 功能扩展，快捷配置，节点复制，订阅功能"
             }
         ]
+    },
+    "coding-data-rescue": {
+        "title": "数据救援，数据备份",
+        "category": "coding",
+        "author": "iCoCoding",
+        "tags": "数据救援，数据备份",
+        "keywords": "数据救援，数据备份",
+        "description": "数据救援，数据备份",
+        "date": "2024年04月29日08:06:22",
+        "meta": [
+            {
+                "name": "description",
+                "content": "磁盘不能打开，数据救援，数据备份"
+            },
+            {
+                "name": "keywords",
+                "content": "磁盘不能打开，数据救援，数据备份"
+            }
+        ]
     }
 }
